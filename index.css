@@ -1,0 +1,71 @@
+@font-face {
+    font-family: oswald;
+    src: url(./font/oswald/Oswald-Regular.ttf);
+}
+
+header {
+    background-color: #B8CB21;
+}
+
+nav,
+nav ul,
+nav ul li {
+    display: inline-block;
+}
+
+body {
+    background-image: url(./fond.png);
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    float: right;
+    font-family: oswald;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+nav li a {
+    color: #2d4724;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    text-decoration: underline 3px;
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+}
+
+/*main*/
+main {
+    padding: 20px;
+}
+
+main section img {
+    width: 250px;
+    float: left;
+    padding-right: 15px;
+}
+main h2 {
+    color:#B8CB21;
+    font-family: oswald;
+}
+button {
+    background-color: #B8CB21;
+    color:#fffff8;
+    float: right;
+}
+footer {
+    text-align: center;
+}
+footer img {
+width: 50px;
+margin-top: 20px;
+border-bottom-left-radius: 28px;
+border-bottom-right-radius: 28px;
+}
